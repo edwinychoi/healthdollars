@@ -10,9 +10,7 @@ const m0 = {
     {
       inputs: ["md"],
       value: (function(md){return(
-md`# Zoomable Icicle
-
-This variant of an [icicle diagram](/@mbostock/d3-icicle) shows only three layers of the hierarchy at a time. Click a node to zoom in, or the left column to zoom out. Compare to a [sunburst](/@d3/zoomable-sunburst).`
+md
 )})
     },
     {
