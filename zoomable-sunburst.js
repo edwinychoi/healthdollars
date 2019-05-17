@@ -102,7 +102,7 @@ data => {
       .sum(d => d.value)
       .sort((a, b) => b.height - a.height || b.value - a.value);
   return d3.partition()
-      .size([height, (root.height + 1) * width / 3])
+      .size([height, (root.height + 1) * width / 2])
     (root);
 }
 )})

@@ -10,7 +10,7 @@
      "children": [
       {"name": "Accounting", "value": 721},
       {"name": "Audit", "value": 4294},
-      {"name": "Controing", "value": 900}
+      {"name": "Controlling", "value": 9800}
      ]
     },
     {"name": "Administrative",
@@ -58,7 +58,7 @@
    ]
   },
   {
-   "name": "Health insurance","color":"#45569B",
+   "name": "Operations","color":"#45569B",
 
    "children": [
     {
