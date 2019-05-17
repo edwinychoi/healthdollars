@@ -13,15 +13,26 @@
   </head>
 
   <body>
- <script type="module">
 
-import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1?module";
-import notebook from "./zoomable-sunburst.js";
+  <h1>Where your health dollars go</h1>
 
+  <h4>To understand the healthcare system, follow the money</h4>
 
-Runtime.load(notebook, Inspector.into(document.body));
+  <p>"Where your Health Dollars Go" is a map of the US healthcare system and its components. By following the allocation and flow of money in healthcare, the thread of how the organizations, departments, and major players are connected becomes apparent.</p>
+  <p>The visualization serves two purposes. The first is to provide the public and professionals interested in the healthcare space a way to increase understanding and explore how all the pieces fit together. The second is to give providers, patient advocacy groups, health policymakers, and health economists a visual communication tool to discuss issues at the higher health systems level.</p>
 
-</script>
+  <script type="module">
+
+  import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1?module";
+  import notebook from "./zoomable-sunburst.js";
+
+  Runtime.load(notebook, Inspector.into(document.body));
+
+  </script>
+
+  <p>The US healthcare system is extremely convoluted. To call it “spaghetti” would be an understatement. Because of the complexity, accurately capturing and following associative and financial relationships is difficult. The wider picture of how organizations are connected, how money flows through the US healthcare system is difficult to see. As a result, public discourse around US healthcare issues and reforms are often too narrow in context. Many consumer services and products developed in the health technology space don’t consider long term, primary, secondary or tertiary, downstream effects they will have on the market or for patients in this wider view.</p>
+  <p>"Where your Health Dollars Go" provides a detailed high-level view of major components within the US healthcare system and how they interact. The map serves as a communication tool for health professionals, organizations, groups, and policymakers to develop services and policies with the context of the larger picture of how their plans may impact the nation from the government to individual patients. The visualization also provides a canvas for professionals to use, projecting their services and products on the map, to more effectively drive development that aligns with our patient health values.</p>
+
   </body>
 
 </html>

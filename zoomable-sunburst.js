@@ -8,12 +8,6 @@ const m0 = {
   id: "349116b280ed2fdf@243",
   variables: [
     {
-      inputs: ["md"],
-      value: (function(md){return(
-md
-)})
-    },
-    {
       name: "chart",
       inputs: ["partition","data","d3","DOM","width","height","color","format"],
       value: (function(partition,data,d3,DOM,width,height,color,format)
@@ -23,7 +17,7 @@ md
 
   const svg = d3.select(DOM.svg(width, height))
       .style("width", "100%")
-      .style("height", "auto")
+      .style("height", "100%")
       .style("overflow", "hidden")
       .style("font", "15px sans-serif");
 
